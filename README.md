@@ -53,7 +53,7 @@ sudo hcxdumptool -i wlan1 -w frames_to_recover_the_psk.pcapng -F --rds=1
 ![Screenshot_20250314_020018](https://github.com/user-attachments/assets/a105cd91-522b-4488-8dd4-29b5c7b6754a)
 
 ```
-hcxpcapngtool -o hash.hc22000 -E essidlist frames_to_recover_the_psk.pcapng
+sudo hcxpcapngtool -o hash.hc22000 frames_to_recover_the_psk.pcapng
 ```
 ![Screenshot_20250314_015237](https://github.com/user-attachments/assets/eeed436d-d573-4c33-986f-15ea31dcf081)
 
